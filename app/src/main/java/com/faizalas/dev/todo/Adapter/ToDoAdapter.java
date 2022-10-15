@@ -40,6 +40,11 @@ public class ToDoAdapter extends RecyclerView.Adapter<ToDoAdapter.ViewHolder> {
     private boolean toBoolean(int n){
         return n!=0;
     }
+
+    public void setTasks(List<ToDoModel> todoList){
+        this.todoList = todoList;
+        notifyDataSetChanged();
+    }
     public static class ViewHolder extends RecyclerView.ViewHolder{
         CheckBox task;
 
