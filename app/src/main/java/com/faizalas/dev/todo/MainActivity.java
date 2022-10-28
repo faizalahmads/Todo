@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements AlertConfirm{
 
     private RecyclerView tasksRecyclerView;
     private ToDoAdapter tasksAdapter;
-    private FloatingActionButton fab;
+    private ImageButton fab;
 
     private List<ToDoModel> taskList;
 
